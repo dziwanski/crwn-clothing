@@ -23,7 +23,7 @@ class SignIn extends Component {
 
     handleSubmit = event => {
         event.preventDefault();
-        console.log('handleSubmit')
+        console.log('handleSubmit sign-in')
 
         this.setState({
             email: '',
